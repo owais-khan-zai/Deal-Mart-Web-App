@@ -1,4 +1,4 @@
-export const useDashboardDataFetch = (countData = {}, iconArray = []) => {
+const useDashboardDatafetch = (countData = {}, iconArray = []) => {
   return Object.entries(countData).map(([key, val], index) => {
     let cleanName = key;
 
@@ -18,3 +18,5 @@ export const useDashboardDataFetch = (countData = {}, iconArray = []) => {
     };
   });
 };
+
+export default useDashboardDatafetch;
