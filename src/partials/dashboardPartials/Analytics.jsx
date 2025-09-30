@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { analyticsTab } from "../../api/DashboardApiUrl/";
 import useFetch from "../../hooks/useFetch";
-import ProductsData from "../../components/Dashboard/productsData";
+import ProductsData from "../../components/Dashboard/ProductsData";
 import Loader from "../../ui/Loader";
 import { useDashboardDataFetch } from "../../hooks/useDashboardDatafetch";
 

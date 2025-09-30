@@ -6,7 +6,6 @@ const ProductsData = ({ icon, name, value, flex, text, marginX, graph }) => {
       flex flex-col bg-white p-5 rounded-xl shadow-lg border border-purple-100
       hover:shadow-xl transition-all duration-300
     `}>
-      {/* Top Row: Icon and Text */}
       <div className="flex items-start gap-4">
         <div className={`flex items-center justify-center 
           w-14 h-14 rounded-full bg-gradient-to-br from-purple-100 to-indigo-100
@@ -20,7 +19,6 @@ const ProductsData = ({ icon, name, value, flex, text, marginX, graph }) => {
         </div>
       </div>
       
-      {/* Graph - positioned below the text */}
       {graph && <div className="mt-4 flex justify-end">{graph}</div>}
     </div>
   );
