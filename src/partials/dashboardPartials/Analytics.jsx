@@ -3,7 +3,7 @@ import { analyticsTab } from "../../api/DashboardApiUrl/";
 import useFetch from "../../hooks/useFetch";
 import ProductsData from "../../components/Dashboard/ProductsData";
 import Loader from "../../ui/Loader";
-import useDashboardDatafetch from "../../hooks/useDashboardDatafetch";
+import useDashboardDataFetch from "../../hooks/useDashboardDataFetch";
 
 const Analytics = () => {
 
